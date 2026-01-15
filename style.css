@@ -285,7 +285,7 @@ section.allElems {
 }
 
 .daily-planner-fullpage{
-    display: block;
+    /* display: block; */
 }
 
 .daily-planner-fullpage{
@@ -317,7 +317,8 @@ section.allElems {
     position: absolute;
     top: 12%;
     left: 1%;
-    font-size: 18px;
+    font-size: 16px;
+    color: var(--tri1);
 }
 
 .day-planner .day-planner-time input{
@@ -326,7 +327,7 @@ section.allElems {
     background-color: var(--sec);
     border-radius: 5px;
     border: none;
-    font-size: 31px;
+    font-size: 33px;
     padding-top: 34px;
     outline: none;
 }
